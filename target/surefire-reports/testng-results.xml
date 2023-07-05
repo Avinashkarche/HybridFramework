@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-04T14:43:49 IST" name="Suite" finished-at="2023-07-04T14:44:01 IST" duration-ms="12248">
+    <groups>
+    </groups>
+    <test started-at="2023-07-04T14:43:49 IST" name="Test" finished-at="2023-07-04T14:44:01 IST" duration-ms="12248">
+      <class name="PageTest.ProductTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:PageTest.ProductTest@7e9131d5]" started-at="2023-07-04T14:43:51 IST" name="createObject" finished-at="2023-07-04T14:43:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="validateFilter()[pri:3, instance:PageTest.ProductTest@7e9131d5]" started-at="2023-07-04T14:43:51 IST" name="validateFilter" finished-at="2023-07-04T14:43:52 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilter -->
+        <test-method signature="resetFilterValidation()[pri:4, instance:PageTest.ProductTest@7e9131d5]" started-at="2023-07-04T14:43:52 IST" name="resetFilterValidation" finished-at="2023-07-04T14:43:53 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetFilterValidation -->
+        <test-method signature="sortingFilter()[pri:5, instance:PageTest.ProductTest@7e9131d5]" started-at="2023-07-04T14:43:53 IST" name="sortingFilter" finished-at="2023-07-04T14:43:56 IST" duration-ms="3367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingFilter -->
+        <test-method signature="navToProduct()[pri:6, instance:PageTest.ProductTest@7e9131d5]" started-at="2023-07-04T14:43:56 IST" name="navToProduct" finished-at="2023-07-04T14:44:01 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navToProduct -->
+      </class> <!-- PageTest.ProductTest -->
+      <class name="PageTest.HomeTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:PageTest.HomeTest@4f67eb2a]" started-at="2023-07-04T14:43:40 IST" name="initBrowser" finished-at="2023-07-04T14:43:49 IST" duration-ms="8416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:PageTest.HomeTest@4f67eb2a]" started-at="2023-07-04T14:43:49 IST" name="createObject" finished-at="2023-07-04T14:43:49 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="validateTitle()[pri:1, instance:PageTest.HomeTest@4f67eb2a]" started-at="2023-07-04T14:43:49 IST" name="validateTitle" finished-at="2023-07-04T14:43:49 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method signature="navToSingleMalt()[pri:2, instance:PageTest.HomeTest@4f67eb2a]" started-at="2023-07-04T14:43:49 IST" name="navToSingleMalt" finished-at="2023-07-04T14:43:50 IST" duration-ms="1747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navToSingleMalt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PageTest.HomeTest@4f67eb2a]" started-at="2023-07-04T14:44:01 IST" name="tearDown" finished-at="2023-07-04T14:44:05 IST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageTest.HomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
