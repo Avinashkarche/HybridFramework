@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
+	
 	public String readConfig(String valuetoread) throws IOException 
 	{
 String path = System.getProperty("user.dir")+"//src//test//resources//Config.properties";

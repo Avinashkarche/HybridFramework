@@ -14,6 +14,7 @@ import PageTest.BaseTest;
 import utility.ScreenShots;
 
 public class TestNGListeners extends BaseTest implements ITestListener {
+	
 	ExtentReports extent = ExtentReportGen.extentReportGenerator();
 
 	public static	ExtentTest test;

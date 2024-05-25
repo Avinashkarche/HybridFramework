@@ -25,7 +25,7 @@ public class ProductTest extends TestNGListeners {
 		int cardcount = productpage.resetFilters();
 		test.info("Filter reset");
 
-		boolean isgreater = cardcount>1;
+		boolean isgreater = cardcount>2;
 
 		Assert.assertEquals(isgreater, true);
 		test.info("succesfully validated filter has been reset");

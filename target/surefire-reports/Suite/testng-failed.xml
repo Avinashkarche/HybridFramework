@@ -8,12 +8,23 @@
     <classes>
       <class name="PageTest.ProductTest">
         <methods>
+          <include name="validateFilter"/>
+          <include name="navToProduct"/>
           <include name="sortingFilter"/>
           <include name="createObject"/>
           <include name="tearDown"/>
           <include name="initBrowser"/>
+          <include name="resetFilterValidation"/>
         </methods>
       </class> <!-- PageTest.ProductTest -->
+      <class name="PageTest.HomeTest">
+        <methods>
+          <include name="navToSingleMalt"/>
+          <include name="createObject"/>
+          <include name="tearDown"/>
+          <include name="initBrowser"/>
+        </methods>
+      </class> <!-- PageTest.HomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
